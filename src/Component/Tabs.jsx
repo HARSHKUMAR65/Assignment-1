@@ -1,6 +1,12 @@
 import React, { useState } from 'react';
 import Faq from './FAQ';
 import Opportunity from './Coursel/Opportunity';
+import Product from './Coursel/Product';
+import Traction from './Coursel/Traction';
+import Busness from './Coursel/BusnessModel';
+import VisionAndStrategy from './Coursel/Vision';
+import Funding from './Coursel/Funding';
+import LeaderShip from './Coursel/Leadership';
 const TabsWithUnderline = () => {
     const [activeTab, setActiveTab] = useState(1);
 
@@ -89,6 +95,12 @@ const TabsWithUnderline = () => {
                             </ul>
                         </div>
                         <Opportunity />
+                        <Product />
+                        <Traction/>
+                        <Busness/>
+                        <VisionAndStrategy/>
+                        <Funding/>
+                        <LeaderShip/>
                     </div>
                     <div
                         id="tabs-with-underline-2"
