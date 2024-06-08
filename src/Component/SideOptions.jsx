@@ -12,43 +12,43 @@ const FAQAccordion = () => {
         <div className='flex flex-col gap-2'>
             <div className="">
                 <div className="">
-                    <h1 className="text-3xl font-bold text-gray-500 mb-6">Deal Terms</h1>
-                    <hr style={{ width: '56px' }} className="mb-6 text-gray-500" />
+                    <h1 className="text-3xl font-bold text-primary-500 mb-6">Deal Terms</h1>
+                    <hr style={{ width: '56px' }} className="mb-6 text-primary-500" />
                 </div>
                 <div className="space-y-4">
                     {faqs.map((faq, index) => (
-                        <div key={index} className="border-b border-gray-200">
+                        <div key={index} className="border-b border-primary-200">
                             <button
-                                className="w-full flex justify-between items-center py-4 text-left text-gray-800 focus:outline-none"
+                                className="w-full flex justify-between items-center py-4 text-left text-primary-800 focus:outline-none"
                                 onClick={() => handleToggle(index)}
                             >
                                 <div className="w-full flex justify-between ">
                                     <h1 className="text-xl ">{faq.title}</h1>
-                                    <p className="text-gray-600 font-bold">{faq.value}</p>
+                                    <p className="text-primary-600 font-bold">{faq.value}</p>
                                 </div>
                                 <span className={`transform transition-transform duration-200 ${activeIndex === index ? 'rotate-180' : 'rotate-0'}`}>
                                 </span>
                             </button>
                             {activeIndex === index && (
-                                <div className="py-2 text-gray-600">
+                                <div className="py-2 text-primary-600">
                                     {faq.details}
                                 </div>
                             )}
                         </div>
                     ))}
                 </div>
-                <button className="w-full flex justify-center items-center py-4 text-left text-gray-800 border-2 border-black">How it works</button>
+                <button className="w-full flex justify-center items-center py-4 text-left text-primary-800 border-2 border-black">How it works</button>
             </div>
 
 
 
             <div className="w-full my-4">
-                <div className="w-full text-2xl text-gray-500 font-bold my-8">
+                <div className="w-full text-2xl text-primary-500 font-bold my-8">
                     Documents
                 </div>
                 <div className="border-2 p-2">
                     <div className="mb-4">
-                        <div className="text-gray-600 text-sm">
+                        <div className="text-primary-600 text-sm">
                             Republic (OpenDeal Portal LLC, CRD #283874) is hosting this Reg CF securities offering by TT1 Products, Inc.. View the official SEC filing and all updates:
                         </div>
                         <a
@@ -61,14 +61,14 @@ const FAQAccordion = () => {
                             <span className="ml-2">
                                 Form C
                             </span>
-                            <span className="ml-2 border-l-2 pl-2 text-gray-500">
+                            <span className="ml-2 border-l-2 pl-2 text-primary-500">
                                 SEC.gov
                             </span>
                         </a>
                     </div>
                     <hr className='w-full' />
                     <div className="mb-4">
-                        <div className="text-gray-600 text-sm mb-2">
+                        <div className="text-primary-600 text-sm mb-2">
                             Company documents
                         </div>
                         <a

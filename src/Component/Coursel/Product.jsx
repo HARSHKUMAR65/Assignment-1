@@ -2,10 +2,10 @@ const Product = () => {
     return (
         <>
             <div className="my-8">
-                <h1 className="text-3xl font-bold text-gray-600 mb-6">Product</h1>
-                <hr style={{ width: '56px' }} className="mb-6 text-gray-800" />
+                <h1 className="text-3xl font-bold text-primary-600 mb-6">Product</h1>
+                <hr style={{ width: '56px' }} className="mb-6 text-primary-800" />
             </div>
-            <div className="text-6xl font-bold text-gray-900 my-6 text-center">
+            <div className="text-6xl font-bold text-primary-900 my-6 text-center">
                 Supersapiens: next-gen insights empowering  diabetes management
             </div>
             <div className="justify-center flex flex-col text-center my-10 p-8 m-8">
@@ -13,11 +13,11 @@ const Product = () => {
                 <img src="https://republic.com/cdn-cgi/image/width=680,dpr=2/https://uploads.republic.com/p/images/attachments/original/000/084/149/84149-1677282201-2d36e32b31860fdea2c46af84eca3209c854ca9d.jpg" alt="" />
                 <img src="https://republic.com/cdn-cgi/image/width=680,dpr=2/https://uploads.republic.com/p/images/attachments/original/000/102/394/102394-1697740633-9496edeaf7d890ff3e575cc623c67ce7b4a0bf60.png" alt="" />
             </div>
-            <div className="text-6xl font-bold text-gray-900 my-8 text-center">
+            <div className="text-6xl font-bold text-primary-900 my-8 text-center">
                 Innovative Features for Enhanced Health
             </div>
             <div className="my-20">
-                <div title="Page 31" className="text-xl font-bold text-gray-600 my-6 ">
+                <div title="Page 31" className="text-xl font-bold text-primary-600 my-6 ">
                     <ul className="list-disc list-inside">
                         <li className="font-medium">
                             <strong>Continuous Glucose Visibility</strong>

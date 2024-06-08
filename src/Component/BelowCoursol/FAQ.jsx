@@ -12,7 +12,7 @@ const FAQ = () => {
 
     return (
         <>
-            <div className="flex flex-col items-center text-center my-10 text-3xl font-bold text-gray-600">
+            <div className="flex flex-col items-center text-center my-10 text-3xl font-bold text-primary-600">
                 <hr className="my-8 w-full" />
                 <p>FAQ</p>
                 <hr className="my-5 w-[50px] border-blue-600" />
@@ -34,7 +34,7 @@ const FAQ = () => {
                                 <TabPanel key={value[0]} value={value[0]}>
                                     {desc.map((paragraph, index) => (
                                         <div key={index} className="mb-4">
-                                            <p className="text-sm text-gray-600 whitespace-pre-line">{paragraph}</p>
+                                            <p className="text-sm text-primary-600 whitespace-pre-line">{paragraph}</p>
                                         </div>
                                     ))}
                                 </TabPanel>

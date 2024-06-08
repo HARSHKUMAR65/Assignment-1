@@ -9,11 +9,11 @@ const Footer = () => {
     return (
         <>
             <div className="w-full my-10">
-                <hr className='w-full border-gray-300' />
+                <hr className='w-full border-primary-300' />
             </div>
             <div className="flex items-center gap-2 justify-center my-10">
                 <img className='mt-4' src="https://uploads.republic.com/p/offerings/logos/medium/000/003/828/3828-1699371072-854dc2611599c8528c0c1635b67908127ceb6222.png" alt="" />
-                <h1 className='text-8xl font-bold text-gray-900'>Supersapiens</h1>
+                <h1 className='text-8xl font-bold text-primary-900'>Supersapiens</h1>
             </div>
             <div className="flex justify-center gap-2 my-10">
                 <div className="flex items-center gap-2">
@@ -28,13 +28,13 @@ const Footer = () => {
                     <div className="flex items-center gap-2 border border-black px-4 py-2 rounded">
                         Follow
                     </div>
-                    <span className="ml-1 text-gray-400">224</span>
+                    <span className="ml-1 text-primary-400">224</span>
                 </div>
 
             </div>
-            <div className="bg-gray-900">
+            <div className="bg-primary-900">
                 <div className="max-w-6xl mx-auto py-12">
-                    <div className="grid gap-y-6 md:grid-cols-4 md:gap-x-10 md:gap-y-0 mb-6 text-gray-500">
+                    <div className="grid gap-y-6 md:grid-cols-4 md:gap-x-10 md:gap-y-0 mb-6 text-primary-500">
                         <div className="">
                             <a href="/">
                                 <img className="w-24 h-auto mb-6" src="https://assets.republic.com/assets/logo/full/white/120x30/logo-54659cb6a37ad65e8e65799b0238c6ea0c0c4ed99ce66f7286fd1d175e718e73.svg" />
@@ -61,7 +61,7 @@ const Footer = () => {
                         <div className="md:col-span-3 grid grid-cols-2 md:grid-cols-4 gap-y-6">
                             <div>
                                 <h2 className="text-xl font-semibold mb-4">For investors</h2>
-                                <ul className="text-lg font-semibold text-gray-100">
+                                <ul className="text-lg font-semibold text-primary-100">
                                     <li><a href="/investors/why-invest">Why invest</a></li>
                                     <li><a href="/learn/investors/how-it-works">How it works</a></li>
                                     <li><a href="/help">FAQ</a></li>
@@ -74,7 +74,7 @@ const Footer = () => {
                             </div>
                             <div>
                                 <h2 className="text-xl font-semibold mb-4">For startups</h2>
-                                <ul className="text-lg font-semibold text-gray-300">
+                                <ul className="text-lg font-semibold text-primary-300">
                                     <li><a href="/raise">Why raise</a></li>
                                     <li><a href="/learn/issuers">Learn</a></li>
                                     <li><a href="/help/category/fundraising">FAQ</a></li>
@@ -85,7 +85,7 @@ const Footer = () => {
                             </div>
                             <div>
                                 <h2 className="text-xl font-semibold mb-4">Crypto</h2>
-                                <ul className="text-lg font-semibold text-gray-300">
+                                <ul className="text-lg font-semibold text-primary-300">
                                     <li><a href="/crypto">For investors</a></li>
                                     <li><a href="/crypto/services">For companies</a></li>
                                     <li><a href="/crypto/for-investors/how-it-works">How it works</a></li>
@@ -95,7 +95,7 @@ const Footer = () => {
                             </div>
                             <div>
                                 <h2 className="text-xl font-semibold mb-4">Company</h2>
-                                <ul className="text-lg font-semibold text-gray-300">
+                                <ul className="text-lg font-semibold text-primary-300">
                                     <li><a href="/about">About</a></li>
                                     <li><a href="/blog">Journal</a></li>
                                     <li><a href="/events">Events</a></li>
@@ -106,7 +106,7 @@ const Footer = () => {
                         </div>
                     </div>
                     <div className="flex flex-col gap-5">
-                        <hr className="border-gray-500" />
+                        <hr className="border-primary-500" />
                         <div className="flex items-center justify-between px-6 py-4">
                             <div className="hidden sm:flex sm:items-center">
                                 <img
@@ -117,7 +117,7 @@ const Footer = () => {
                                 <span className="text-xs font-semibold text-white ml-1">
                                     <a
                                         href="/"
-                                        className="text-xl text-gray-300"
+                                        className="text-xl text-primary-300"
                                         rel="nofollow"
                                     >
                                         Refer a startup, get $2,500
@@ -125,7 +125,7 @@ const Footer = () => {
                                 </span>
                             </div>
                             <div className="hidden sm:flex sm:items-center gap-2">
-                                <p className="text-xl font-semibold text-gray-300">Invest in the app</p>
+                                <p className="text-xl font-semibold text-primary-300">Invest in the app</p>
                                 <a
                                     href="/"
                                 >
@@ -146,9 +146,9 @@ const Footer = () => {
                                 </a>
                             </div>
                         </div>
-                        <hr className="border-gray-500" />
+                        <hr className="border-primary-500" />
                     </div>
-                    <div className="text-gray-500 mx-auto px-4 py-8 border-t border-gray-300">
+                    <div className="text-primary-500 mx-auto px-4 py-8 border-t border-primary-300">
                         <div className="mb-4 font-semibold">
                             <p className="mb-2 text-sm">
                                 This site (the "Site") is owned and maintained by OpenDeal Inc., which is not a registered
@@ -241,9 +241,9 @@ const Footer = () => {
                             </p>
                         </div>
                     </div>
-                    <hr className=" my-5 border-gray-500" />
+                    <hr className=" my-5 border-primary-500" />
                     <div className="flex justify-between">
-                        <p className="mb-2 text-sm text-gray-500">Made in SF/NYC</p>
+                        <p className="mb-2 text-sm text-primary-500">Made in SF/NYC</p>
                         <img src="https://assets.republic.com/assets/layouts/credit_cards-fb323581910488f0885fc63613e42a2d07ebc908e0af4df4ed139ed8cb3254fc.svg" alt="" />
 
                     </div>

@@ -2,21 +2,21 @@ const Opportunity = () => {
     return (
         <>
             <div className="">
-                <h1 className="text-3xl font-bold text-gray-600 mb-6">Opportunities</h1>
-                <hr style={{ width: '56px' }} className="mb-6 text-gray-500" />
+                <h1 className="text-3xl font-bold text-primary-600 mb-6">Opportunities</h1>
+                <hr style={{ width: '56px' }} className="mb-6 text-primary-500" />
             </div>
-            <div className="text-6xl font-bold text-gray-900 mb-6 text-center">
+            <div className="text-6xl font-bold text-primary-900 mb-6 text-center">
                 Glucose: The Cornerstone of Health
             </div>
             <hr />
-            <div className="text-3xl font-bold text-gray-600 text-center my-8">
+            <div className="text-3xl font-bold text-primary-600 text-center my-8">
                 The Problem
             </div>
             <hr />
             <div className=" flex justify-center my-4">
                 <img src="https://republic.com/cdn-cgi/image/width=680,dpr=2/https://uploads.republic.com/p/images/attachments/original/000/105/682/105682-1699472641-5fb7e5c1d4ea111d919bb584ff75909a2ceeb600.png" alt="" />
             </div>
-            <div className="flex justify-center flex-col text-xl  text-gray-900 text-start">
+            <div className="flex justify-center flex-col text-xl  text-primary-900 text-start">
                 <div className="my-8">
                     Diabetes, a condition inherently linked to glucose management, is not just a medical term; it's become a significant challenge in the tapestry of modern healthcare, especially in the US.
                 </div>

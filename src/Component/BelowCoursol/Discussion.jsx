@@ -5,12 +5,12 @@ import { commentsData } from '../../Utils/constant';
 const Discussion = () => {
     return (
         <>
-            <div className="flex flex-col items-center text-center my-10 text-3xl font-bold text-gray-600">
+            <div className="flex flex-col items-center text-center my-10 text-3xl font-bold text-primary-600">
                 <hr className="my-8 w-full" />
                 <p>Discussion</p>
                 <hr className="my-5 w-[50px] border-blue-600" />
             </div>
-            <div className="text-gray-500 text-sm mb-10 text-center w-full max-w-3xl mx-auto">
+            <div className="text-primary-500 text-sm mb-10 text-center w-full max-w-3xl mx-auto">
                 Ask questions and share feedback with the Supersapiens team below. If you have support related questions for Republic, please contact <a className="text-blue-600" href="#">investors@republic.co.</a>
             </div>
             <div className="w-full max-w-3xl mx-auto">
@@ -23,18 +23,18 @@ const Discussion = () => {
                                 alt={`Profile picture of ${data.name}`}
                             />
                             <div className="ml-4">
-                                <div className="font-semibold text-lg text-gray-900">{data.name}</div>
+                                <div className="font-semibold text-lg text-primary-900">{data.name}</div>
                                 <div className="flex gap-2">
-                                    <div className="text-gray-600">{data.role}</div>
-                                    <div className="text-gray-600">{data.timestamp}</div>
+                                    <div className="text-primary-600">{data.role}</div>
+                                    <div className="text-primary-600">{data.timestamp}</div>
                                 </div>
                             </div>
                         </div>
-                        <div className="text-gray-700 mb-2 text-lg">{data.content}</div>
+                        <div className="text-primary-700 mb-2 text-lg">{data.content}</div>
                         <div className="mt-4 flex gap-2">
-                            <CiStar className="text-gray-500 mt-1" />
-                            <span className="text-gray-500">{data.likes} likes</span>
-                            <span className="text-gray-500 cursor-pointer">Reply</span>
+                            <CiStar className="text-primary-500 mt-1" />
+                            <span className="text-primary-500">{data.likes} likes</span>
+                            <span className="text-primary-500 cursor-pointer">Reply</span>
                         </div>
                     </div>
                 ))}

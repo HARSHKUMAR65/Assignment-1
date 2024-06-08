@@ -7,11 +7,11 @@ const PressCard = ({ title, description, link, image, icon, date, bsns }) => (
             <div className="icn flex gap-2 mt-2">
                 <img src={icon} className="w-5" />
                 <p className="text-sm ">
-                    {bsns} | <span className="text-gray-600">{date}</span>
+                    {bsns} | <span className="text-primary-600">{date}</span>
                 </p>
             </div>
         </div>
-        <p className="text-sm p-4 text-gray-800">{description}</p>
+        <p className="text-sm p-4 text-primary-800">{description}</p>
         <a
             href={link}
             target="_blank"
