@@ -50,13 +50,13 @@ const Home = () => {
                 Glucose: The cornerstone of metabolic health
               </div>
               <div className="flex flex-wrap gap-2">
-                <a href="/tag/saas" className="px-3 py-1 bg-gray-200 text-gray-800 rounded-md text-sm">SaaS</a>
-                <a href="/tag/women-founders" className="px-3 py-1 bg-blue-200 text-blue-800 rounded-md text-sm">Women Founders</a>
-                <a href="/tag/wellbeing-longevity" className="px-3 py-1 bg-gray-200 text-gray-800 rounded-md text-sm">Wellbeing & Longevity</a>
-                <a href="/tag/fitness" className="px-3 py-1 bg-gray-200 text-gray-800 rounded-md text-sm">Fitness</a>
-                <a href="/tag/healthtech" className="px-3 py-1 bg-gray-200 text-gray-800 rounded-md text-sm">Healthtech</a>
-                <a href="/tag/biotechnology" className="px-3 py-1 bg-gray-200 text-gray-800 rounded-md text-sm">Biotechnology</a>
-                <a href="/tag/wearables" className="px-3 py-1 bg-gray-200 text-gray-800 rounded-md text-sm">Wearables</a>
+                <a className="px-3 py-1 bg-gray-200 text-gray-800 rounded-md text-sm">SaaS</a>
+                <a  className="px-3 py-1 bg-blue-200 text-blue-800 rounded-md text-sm">Women Founders</a>
+                <a className="px-3 py-1 bg-gray-200 text-gray-800 rounded-md text-sm">Wellbeing & Longevity</a>
+                <a  className="px-3 py-1 bg-gray-200 text-gray-800 rounded-md text-sm">Fitness</a>
+                <a  className="px-3 py-1 bg-gray-200 text-gray-800 rounded-md text-sm">Healthtech</a>
+                <a  className="px-3 py-1 bg-gray-200 text-gray-800 rounded-md text-sm">Biotechnology</a>
+                <a  className="px-3 py-1 bg-gray-200 text-gray-800 rounded-md text-sm">Wearables</a>
               </div>
             </div>
           </div>

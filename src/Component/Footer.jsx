@@ -3,9 +3,34 @@ import { FaInstagramSquare } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
 import { FaDiscord } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa6";
+import { FaLock } from "react-icons/fa";
 const Footer = () => {
     return (
         <>
+            <div className="w-full my-10">
+                <hr className='w-full border-gray-300' />
+            </div>
+            <div className="flex items-center gap-2 justify-center my-10">
+                <img className='mt-4' src="https://uploads.republic.com/p/offerings/logos/medium/000/003/828/3828-1699371072-854dc2611599c8528c0c1635b67908127ceb6222.png" alt="" />
+                <h1 className='text-8xl font-bold text-gray-900'>Supersapiens</h1>
+            </div>
+            <div className="flex justify-center gap-2 my-10">
+                <div className="flex items-center gap-2">
+                    <button className='flex justify-center bg-blue-600 text-white p-5 rounded-lg'>
+                        <div className='flex items-center'>
+                            <span className='mt-1'>
+                                <FaLock className='text-2xl' />
+                            </span >
+                            <p className='ml-2 text-2xl font-bold'>Invest in Supersapiens</p>
+                        </div>
+                    </button>
+                    <div className="flex items-center gap-2 border border-black px-4 py-2 rounded">
+                        Follow
+                    </div>
+                    <span className="ml-1 text-gray-400">224</span>
+                </div>
+
+            </div>
             <div className="bg-gray-900">
                 <div className="max-w-6xl mx-auto py-12">
                     <div className="grid gap-y-6 md:grid-cols-4 md:gap-x-10 md:gap-y-0 mb-6 text-gray-500">

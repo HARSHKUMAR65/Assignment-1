@@ -8,6 +8,8 @@ import VisionAndStrategy from './Coursel/Vision';
 import Funding from './Coursel/Funding';
 import LeaderShip from './Coursel/Leadership';
 import About from './BelowCoursol/About';
+import Discussion from './BelowCoursol/Discussion';
+import Update from './Update';
 const TabsWithUnderline = () => {
     const [activeTab, setActiveTab] = useState(1);
 
@@ -110,9 +112,7 @@ const TabsWithUnderline = () => {
                         role="tabpanel"
                         aria-labelledby="tabs-with-underline-item-2"
                     >
-                        <p className="text-gray-500">
-                            This is the <em className="font-semibold text-gray-800">second</em> item's tab body.
-                        </p>
+                        <Discussion />
                     </div>
                     <div
                         id="tabs-with-underline-3"
@@ -120,9 +120,9 @@ const TabsWithUnderline = () => {
                         role="tabpanel"
                         aria-labelledby="tabs-with-underline-item-3"
                     >
-                        <p className="text-gray-500">
-                            This is the <em className="font-semibold text-gray-800">third</em> item's tab body.
-                        </p>
+                       <div className="w-full">
+                       <Update />
+                       </div>
                     </div>
                     <div
                         id="tabs-with-underline-4"
