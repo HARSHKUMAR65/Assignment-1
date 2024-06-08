@@ -11,8 +11,8 @@ const About = () => {
                 <hr className="my-8 text-primary-500 border-2 w-[200px] border-blue-600 mx-auto" />
             </div>
 
-            <div className="w-full max-w-6xl mx-auto">
-                <div className="flex justify-between ">
+            <div className="w-full max-w-6xl mx-auto ">
+                <div className="flex justify-between  lg:flex-row flex-col">
                     <div className="grid grid-row-3 gap-8">
                         <div className="text-start text-xl text-primary-600">
                             <h3>Legal Name</h3>

@@ -3,7 +3,7 @@ const VisionAndStrategy = () => {
         <>
             <div className="my-24"></div>
             <div className="my-8">
-                <h1 className="text-3xl font-bold text-primary-600 mb-6">Vision and strategy
+                <h1 className="text-3xl font-bold text-primary-600 mb-6 md:text-xl  sm:text-xl">Vision and strategy
                 </h1>
                 <hr style={{ width: '56px' }} className="mb-6 text-primary-800" />
             </div>
