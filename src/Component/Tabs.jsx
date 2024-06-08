@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Faq from './FAQ';
+import Faq from './SideOptions';
 import Opportunity from './Coursel/Opportunity';
 import Product from './Coursel/Product';
 import Traction from './Coursel/Traction';
@@ -7,6 +7,7 @@ import Busness from './Coursel/BusnessModel';
 import VisionAndStrategy from './Coursel/Vision';
 import Funding from './Coursel/Funding';
 import LeaderShip from './Coursel/Leadership';
+import About from './BelowCoursol/About';
 const TabsWithUnderline = () => {
     const [activeTab, setActiveTab] = useState(1);
 
@@ -21,7 +22,7 @@ const TabsWithUnderline = () => {
                     <nav className="flex space-x-1 max-w-6xl mx-auto gap-x-4" aria-label="Tabs" role="tablist">
                         <button
                             type="button"
-                            className={`py-4 px-1 inline-flex items-center gap-x-2 border-b-2 text-xl font-bold whitespace-nowrap ${activeTab === 1
+                            className={`py-4 px-1 inline-flex items-center gap-x-2 border-b-2 text-3xl font-bold whitespace-nowrap ${activeTab === 1
                                 ? 'font-semibold border-blue-600 text-blue-600'
                                 : 'border-transparent text-gray-500 hover:text-blue-600'
                                 } focus:outline-none`}
@@ -33,7 +34,7 @@ const TabsWithUnderline = () => {
                         </button>
                         <button
                             type="button"
-                            className={`py-4 px-1 inline-flex items-center gap-x-2 border-b-2 text-xl font-bold whitespace-nowrap ${activeTab === 2
+                            className={`py-4 px-1 inline-flex items-center gap-x-2 border-b-2 text-3xl font-bold whitespace-nowrap ${activeTab === 2
                                 ? 'font-semibold border-blue-600 text-blue-600'
                                 : 'border-transparent text-gray-500 hover:text-blue-600'
                                 } focus:outline-none`}
@@ -45,7 +46,7 @@ const TabsWithUnderline = () => {
                         </button>
                         <button
                             type="button"
-                            className={`py-4 px-1 inline-flex items-center gap-x-2 border-b-2 text-xl font-bold whitespace-nowrap ${activeTab === 3
+                            className={`py-4 px-1 inline-flex items-center gap-x-2 border-b-2 text-3xl font-bold whitespace-nowrap ${activeTab === 3
                                 ? 'font-semibold border-blue-600 text-blue-600'
                                 : 'border-transparent text-gray-500 hover:text-blue-600'
                                 } focus:outline-none`}
@@ -58,7 +59,7 @@ const TabsWithUnderline = () => {
 
                         <button
                             type="button"
-                            className={`py-4 px-1 inline-flex items-center gap-x-2 border-b-2 text-xl font-bold whitespace-nowrap ${activeTab === 4
+                            className={`py-4 px-1 inline-flex items-center gap-x-2 border-b-2 text-3xl font-bold whitespace-nowrap ${activeTab === 4
                                 ? 'font-semibold border-blue-600 text-blue-600'
                                 : 'border-transparent text-gray-500 hover:text-blue-600'
                                 } focus:outline-none`}
@@ -100,8 +101,9 @@ const TabsWithUnderline = () => {
                         <Busness/>
                         <VisionAndStrategy/>
                         <Funding/>
-                        <LeaderShip/>
+                        <LeaderShip/>    
                     </div>
+
                     <div
                         id="tabs-with-underline-2"
                         className={activeTab === 2 ? '' : 'hidden'}

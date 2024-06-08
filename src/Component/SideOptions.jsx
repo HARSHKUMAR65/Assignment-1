@@ -86,34 +86,34 @@ const FAQAccordion = () => {
             <div className="w-full text-2xl text-gray-500 font-bold my-8">
                 Documents
             </div>
-            <div class="w-full my-4">
-                <div class="border-2 p-2">
-                    <div class="mb-4">
-                        <div class="text-gray-600 text-sm">
+            <div className="w-full my-4">
+                <div className="border-2 p-2">
+                    <div className="mb-4">
+                        <div className="text-gray-600 text-sm">
                             Republic (OpenDeal Portal LLC, CRD #283874) is hosting this Reg CF securities offering by TT1 Products, Inc.. View the official SEC filing and all updates:
                         </div>
                         <a
                             target="_blank"
                             rel="noopener"
-                            class="flex items-center mt-2"
+                            className="flex items-center mt-2"
                             href="https://www.sec.gov/edgar/browse/?CIK=0001970837"
                         >
                             <img  alt="Official SEC Logo" title="SEC Logo" src="https://assets.republic.com/assets/sec_logo-37a94865a2e116eb24c31d9a52bc810580faf9e42a281b167d385e1e61a64256.png" />
-                            <span class="ml-2">
+                            <span className="ml-2">
                                 Form C
                             </span>
-                            <span class="ml-2 border-l-2 pl-2 text-gray-500">
+                            <span className="ml-2 border-l-2 pl-2 text-gray-500">
                                 SEC.gov
                             </span>
                         </a>
                     </div>
                     <hr className='w-full'/>
-                    <div class="mb-4">
-                        <div class="text-gray-600 text-sm mb-2">
+                    <div className="mb-4">
+                        <div className="text-gray-600 text-sm mb-2">
                             Company documents
                         </div>
                         <a
-                            class="flex items-center mb-2"
+                            className="flex items-center mb-2"
                             target="_blank"
                             href="https://uploads.republic.com/p/offerings/security_attachments/original/000/003/828/3828-1701698075-b14886d1fedb6f98a97f26bed643c3594b5b3943.pdf"
                         >
@@ -123,7 +123,7 @@ const FAQAccordion = () => {
                             </span>
                         </a>
                         <a
-                            class="flex items-center"
+                            className="flex items-center"
                             target="_blank"
                             href="/documents/6377"
                         >
