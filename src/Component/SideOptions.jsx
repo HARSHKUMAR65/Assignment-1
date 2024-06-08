@@ -37,7 +37,7 @@ const FAQAccordion = () => {
                         </div>
                     ))}
                 </div>
-                <button className="w-full flex justify-center items-center py-4 text-left text-primary-800 border-2 border-black">How it works</button>
+                <button className="w-full flex justify-center items-center py-4 text-left text-primary-800 border border-black">How it works</button>
             </div>
 
 
@@ -46,7 +46,7 @@ const FAQAccordion = () => {
                 <div className="w-full text-2xl text-primary-500 font-bold my-8">
                     Documents
                 </div>
-                <div className="border-2 p-2">
+                <div className="flex flex-col gap-4 p-1 border border-primary-300">
                     <div className="mb-4">
                         <div className="text-primary-600 text-sm">
                             Republic (OpenDeal Portal LLC, CRD #283874) is hosting this Reg CF securities offering by TT1 Products, Inc.. View the official SEC filing and all updates:
@@ -66,7 +66,7 @@ const FAQAccordion = () => {
                             </span>
                         </a>
                     </div>
-                    <hr className='w-full' />
+                    <hr className='w-full border-primary-300 botder' />
                     <div className="mb-4">
                         <div className="text-primary-600 text-sm mb-2">
                             Company documents

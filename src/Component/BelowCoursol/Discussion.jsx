@@ -15,7 +15,7 @@ const Discussion = () => {
             </div>
             <div className="w-full max-w-3xl mx-auto">
                 {commentsData.map((data, index) => (
-                    <div key={index} className="p-4 bg-white rounded-lg border shadow-sm my-4">
+                    <div key={index} className="p-4 bg-white rounded-lg border border-primary-200 shadow-sm my-4">
                         <div className="flex items-center mb-4">
                             <img
                                 className="w-10 h-10 "

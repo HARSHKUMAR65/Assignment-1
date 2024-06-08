@@ -34,15 +34,15 @@ const HeadersTab = () => {
         <>
             <div className="w-full mx-auto">
                 <div className="border-b border-primary-200">
-                    <nav className="flex space-x-1 max-w-6xl mx-auto gap-x-4" aria-label="Tabs" role="tablist">
+                    <nav className="flex flex-wrap space-x-1 max-w-6xl mx-auto gap-x-4 sm:gap-x-2 md:gap-x-4" aria-label="Tabs" role="tablist">
                         {tabs.map((tab, index) => (
                             <button key={index}
                                 type="button"
-                                className={`py-4 px-1 inline-flex items-center gap-x-2 border-b-2 text-3xl font-bold whitespace-nowrap ${activeTab === index
-                                    ? 'font-semibold border-blue-600 text-blue-600'
+                                className={`py-2 px-2 sm:py-4 sm:px-1 inline-flex items-center gap-x-2 border-b-2 text-lg sm:text-2xl md:text-3xl font-bold whitespace-nowrap ${activeTab === index
+                                    ? 'font-semibold border-secondary-600 text-secondary-600'
                                     : 'border-transparent text-primary-500 hover:text-blue-600'
                                     } focus:outline-none`}
-                                id="tabs-with-underline-item-1"
+                                id={`tabs-with-underline-item-${index}`}
                                 onClick={() => handleTabClick(index)}
                                 role="tab"
                             >
@@ -52,15 +52,17 @@ const HeadersTab = () => {
                     </nav>
                 </div>
             </div>
-            {tabs.map((tab, index) => <div
-
-                id="tabs-with-underline-2"
-                className={activeTab === index ? '' : 'hidden'}
-                role="tabpanel"
-                aria-labelledby="tabs-with-underline-item-2"
-            >
-                {tab.component}
-            </div>)}
+            {tabs.map((tab, index) => (
+                <div
+                    key={index}
+                    id={`tabs-with-underline-panel-${index}`}
+                    className={activeTab === index ? 'block' : 'hidden'}
+                    role="tabpanel"
+                    aria-labelledby={`tabs-with-underline-item-${index}`}
+                >
+                    {tab.component}
+                </div>
+            ))}
         </>
     );
 };

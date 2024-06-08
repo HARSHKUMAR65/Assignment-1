@@ -3,11 +3,11 @@ const Team = () => {
     return (
         <>
             <div className="justify-center flex flex-col text-center my-10 text-3xl font-bold text-primary-600">
-                <hr className="my-8 text-primary-800" />
+                <hr className="my-8 text-primary-500" />
                 <p>Supersapiens Team</p>
                 <p className="text-primary-500 text-base my-5">Everyone helping build Supersapiens , not limited to employees
                 </p>
-                <hr className="my- text-primary-800 border-2 w-[200px] border-blue-600 mx-auto" />
+                <hr className="my- text-primary-500 border-2 w-[200px] border-blue-600 mx-auto" />
             </div>
             <div className="my-10">
                 <div className="w-full max-w-6xl mx-auto ">

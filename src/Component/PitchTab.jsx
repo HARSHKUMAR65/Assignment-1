@@ -9,8 +9,8 @@ import Funding from './Coursel/Funding';
 import LeaderShip from './Coursel/Leadership';
 import {highlights} from '../Utils/constant';
 
-const PitchTab = () => <div className="max-w-6xl mx-auto flex mt-10 gap-1">
-    <div>
+const PitchTab = () => <div className="max-w-6xl mx-auto flex mt-10 ">
+    <div className="">
         <h1 className="text-3xl font-bold text-primary-800 mb-6">Highlights</h1>
         <hr className="mb-6 text-primary-800 w-[56px]" />
         <div className="list-disc my-5">

@@ -1,6 +1,6 @@
 const PressCard = ({ title, description, link, image, icon, date, bsns }) => (
-    <div className="bg-white border rounded overflow-hidden w-full">
-        <img src={image} className="w-full  object-cover rounded-t" />
+    <div className="bg-white border border-primary-100 shadow-sm rounded overflow-hidden w-full">
+        <img src={image} className="w-full  object-cover " />
 
         <div className="p-4">
             <h2 className="text-xl ">{title}</h2>

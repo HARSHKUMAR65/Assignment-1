@@ -32,10 +32,10 @@ const CardSlider = () => {
         ]
     };
 
-    return ( <div className="w-full max-w-6xl mx-auto   border-2 ">
+    return ( <div className="w-full max-w-6xl mx-auto  ">
         <Slider {...settings}>
           {cardData.map((card) => (
-            <div key={card.id} className="p-4">
+            <div key={card.id} className="p-4 w-full">
               <div className="bg-white rounded-lg shadow-lg text-center hover:shadow-xl transition duration-300">
                 <img
                   src={card.img1}

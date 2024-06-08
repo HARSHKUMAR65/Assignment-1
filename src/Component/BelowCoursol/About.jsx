@@ -6,9 +6,9 @@ const About = () => {
     return (
         <>
             <div className="justify-center flex flex-col text-center my-10 text-3xl font-bold text-primary-600">
-                <hr className="my-8 text-primary-800" />
+                <hr className="my-8 text-primary-400" />
                 About Supersapiens
-                <hr className="my-8 text-primary-800 border-2 w-[200px] border-blue-600 mx-auto" />
+                <hr className="my-8 text-primary-500 border-2 w-[200px] border-blue-600 mx-auto" />
             </div>
 
             <div className="w-full max-w-6xl mx-auto">
@@ -16,7 +16,7 @@ const About = () => {
                     <div className="grid grid-row-3 gap-8">
                         <div className="text-start text-xl text-primary-600">
                             <h3>Legal Name</h3>
-                            <p className="text-primary-800 text-2xl">TT1 Products, Inc.</p>
+                            <p className="text-primary-500 text-2xl">TT1 Products, Inc.</p>
                         </div>
                         <div className="text-start text-xl text-primary-600">
                             <h3>Founded</h3>

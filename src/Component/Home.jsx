@@ -26,7 +26,7 @@ const Home = () => {
       <div className="w-full max-w-6xl mx-auto">
         <div className="w-full max-w-7xl px-4">
           <div className="flex flex-col md:flex-row justify-between  ">
-            <div className="p-6">
+            <div className="py-6 w-full px-[-10px]">
               <div className="flex items-center justify-between mb-6">
                 <div className="flex items-center gap-5">
                   <img
@@ -46,7 +46,7 @@ const Home = () => {
               </div>
               <div className="flex flex-wrap gap-2">
                 {homeOptions.map((option, index) => (
-                  <a key={index} className="px-3 py-1 bg-primary-200 text-primary-800 rounded-md text-sm">
+                  <a key={index} className={`px-3 py-1 bg-primary-200 text-primary-800 rounded-md text-sm ${index===1 ? 'bg-secondary-50 text-secondary-500': ''}`}>
                     {option}
                   </a>
                 ))}
