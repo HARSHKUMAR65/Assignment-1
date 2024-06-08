@@ -14,3 +14,18 @@ eslint
 ## Get started on local
 
 For running the project on local, follow the following steps.
+```
+$ git clone https://github.com/HARSHKUMAR65/Assignment-1.git
+$ cd Assignment-1
+$ npm install
+$ npm start
+for yarn
+```
+```
+$ git clone https://github.com/HARSHKUMAR65/Assignment-1.git
+$ cd Assignment-1
+$ yarn
+$ yarn start
+```
+
+## Screenshots
