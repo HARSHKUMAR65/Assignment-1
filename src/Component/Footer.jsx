@@ -4,6 +4,7 @@ import { FaSquareXTwitter } from "react-icons/fa6";
 import { FaDiscord } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa6";
 import { FaLock } from "react-icons/fa";
+
 const Footer = () => {
     return (
         <>

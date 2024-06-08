@@ -20,7 +20,7 @@ const Opportunity = () => {
                 <div className="my-8">
                     Diabetes, a condition inherently linked to glucose management, is not just a medical term; it's become a significant challenge in the tapestry of modern healthcare, especially in the US.
                 </div>
-                <div className="">
+                <div>
                     In an era where we can track and analyze countless health metrics, we've often underestimated the profound importance of glucose regulation.
                 </div>
                 <div className="my-8">

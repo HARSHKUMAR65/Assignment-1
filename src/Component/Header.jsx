@@ -1,4 +1,4 @@
-const Header1 = () => {
+const Header = () => {
     return (
         <>
             <div>
@@ -102,4 +102,4 @@ const Header1 = () => {
         </>
     )
 }
-export default Header1
+export default Header;

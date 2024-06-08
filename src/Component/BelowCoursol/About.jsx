@@ -39,12 +39,12 @@ const About = () => {
                         <div className="text-start text-xl text-gray-600">
                             <h3>Social Media</h3>
                             <div>
-                                <a target="_blank" title="Twitter" class="s-marginLeft1 c-link c-link--twitter" href="https://twitter.com/supersapiensinc"><i class="icon-twitter"></i></a>
-                                <a target="_blank" title="Instagram" class="s-marginLeft1 c-link c-link--instagram" href="https://www.instagram.com/supersapiensinc/"><i class="icon-instagram"></i></a>
-                                <a target="_blank" title="Linkedin" class="s-marginLeft1 c-link c-link--linkedin" href="https://www.linkedin.com/company/supersapiens"><i class="icon-linkedin"></i></a>
-                                <a target="_blank" title="Facebook" class="s-marginLeft1 c-link c-link--facebook" href="https://www.facebook.com/supersapiensinc"><i class="icon-facebook"></i></a>
-                                <a target="_blank" title="Youtube" class="s-marginLeft1 c-link c-link--youtube" href="https://www.youtube.com/c/Supersapiens_performance_technology?app=desktop"><i class="icon-youtube"></i></a>
-                                <a target="_blank" title="Discord" class="s-marginLeft1 c-link c-link--discord" href="https://discord.gg/ppgtJFCn"><i class="icon-discord"></i></a>
+                                <a   class="s-marginLeft1 c-link c-link--twitter" href="https://twitter.com/supersapiensinc"><i class="icon-twitter"></i></a>
+                                <a   class="s-marginLeft1 c-link c-link--instagram" href="https://www.instagram.com/supersapiensinc/"><i class="icon-instagram"></i></a>
+                                <a   class="s-marginLeft1 c-link c-link--linkedin" href="https://www.linkedin.com/company/supersapiens"><i class="icon-linkedin"></i></a>
+                                <a   class="s-marginLeft1 c-link c-link--facebook" href="https://www.facebook.com/supersapiensinc"><i class="icon-facebook"></i></a>
+                                <a   class="s-marginLeft1 c-link c-link--youtube" href="https://www.youtube.com/c/Supersapiens_performance_technology?app=desktop"><i class="icon-youtube"></i></a>
+                                <a  class="s-marginLeft1 c-link c-link--discord" href="https://discord.gg/ppgtJFCn"><i class="icon-discord"></i></a>
                             </div>
                         </div>
                     </div>

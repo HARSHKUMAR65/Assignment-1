@@ -1,14 +1,15 @@
+import Header from "./Component/Header";
 import Home from "./Component/Home";
-import TabsWithUnderline from "./Component/Tabs";
-import Header1 from "./Component/Header1";
+import HeadersTab from "./Component/Tabs";
 import About from "./Component/BelowCoursol/About";
 import Footer from "./Component/Footer";
-function App() {
+
+const App =() => {
   return (
       <>
-        <Header1 />
+        <Header />
         <Home />
-        <TabsWithUnderline />
+        < HeadersTab/>
         <About />
         <Footer />
       </>

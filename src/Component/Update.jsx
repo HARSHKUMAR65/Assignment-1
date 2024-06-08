@@ -1,5 +1,4 @@
-const Update = () => {
-    return (
+const Update = () => 
         <>
             <div className="w-full max-w-6xl mx-auto  ">
                 <div className=" my-10 flex  items-center">
@@ -47,7 +46,6 @@ const Update = () => {
                 </div>
             </div>
         </>
-    )
-}
+
 
 export default Update;

@@ -5,15 +5,10 @@ import "slick-carousel/slick/slick-theme.css";
 import { FaStar } from "react-icons/fa";
 import { MdOutlineIosShare } from "react-icons/md";
 import CardSlider from "./CardSlider";
+import { image_URL , homeOptions } from "../Utils/constant";
 
 const Home = () => {
   const [activeIndex, setActiveIndex] = useState(0);
-
-  const image_URL = [
-    'https://uploads.republic.com/p/offerings/slider_media_items/contents/default/000/020/082/20082-1701507571-b947f36da5fec894b0fff7ab0842cc0bf6b73ac4.jpg',
-    'https://uploads.republic.com/p/offerings/slider_media_items/contents/default/000/022/062/22062-1705697384-7af29616af148bbbdf66d9434f7557e9e0a25308.png',
-    'https://uploads.republic.com/p/offerings/slider_media_items/contents/default/000/022/063/22063-1705697414-7f17210e54c0859bb1e5a58843c752ec91cd4fad.png'
-  ];
 
   const settings = {
     dots: false,
@@ -50,13 +45,12 @@ const Home = () => {
                 Glucose: The cornerstone of metabolic health
               </div>
               <div className="flex flex-wrap gap-2">
-                <a className="px-3 py-1 bg-gray-200 text-gray-800 rounded-md text-sm">SaaS</a>
-                <a  className="px-3 py-1 bg-blue-200 text-blue-800 rounded-md text-sm">Women Founders</a>
-                <a className="px-3 py-1 bg-gray-200 text-gray-800 rounded-md text-sm">Wellbeing & Longevity</a>
-                <a  className="px-3 py-1 bg-gray-200 text-gray-800 rounded-md text-sm">Fitness</a>
-                <a  className="px-3 py-1 bg-gray-200 text-gray-800 rounded-md text-sm">Healthtech</a>
-                <a  className="px-3 py-1 bg-gray-200 text-gray-800 rounded-md text-sm">Biotechnology</a>
-                <a  className="px-3 py-1 bg-gray-200 text-gray-800 rounded-md text-sm">Wearables</a>
+                {homeOptions.map((option, index) => (
+                  <a key={index} className="px-3 py-1 bg-gray-200 text-gray-800 rounded-md text-sm">
+                    {option}
+                  </a>
+                ))}
+               
               </div>
             </div>
           </div>
@@ -78,7 +72,6 @@ const Home = () => {
           ))}
         </div>
       </div>
-      {/* ========================================================================================================================================= */}
       <div className="bg-gray-200 w-full mt-10">
         <div className="w-full max-w-6xl mx-auto py-10 ">
           <div className="head flex justify-between">
