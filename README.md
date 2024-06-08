@@ -1,8 +1,16 @@
-# React + Vite
+# Republic Supersapiens UI Assignment 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[https://main--asignmentdeployment.netlify.app](https://main--asignmentdeployment.netlify.app/).
 
-Currently, two official plugins are available:
+## About
+This is a Single Page Application (SPA) built on with React that shows Information about supersapiens comapny their pitches, opportunity to invest there, what there product is about and many more. This project contains all UI elements.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tech stack and libraries
+Reactjs
+Tailwind css
+slick-carousel
+eslint
+
+## Get started on local
+
+For running the project on local, follow the following steps.
