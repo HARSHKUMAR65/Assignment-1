@@ -1,6 +1,7 @@
 import Team from "./Team";
 import FAQ from "./FAQ";
 import Press from "./Press";
+import Discussion from "./Discussion";
 const About = () => {
     return (
         <>
@@ -60,7 +61,7 @@ const About = () => {
             </div>
             <Team/>
             <Press/>
-            <FAQ/>
+            <Discussion/>
         </>
     )
 }

@@ -5,6 +5,7 @@ import {
     Tab,
     TabPanel,
 } from "@material-tailwind/react";
+
 const FAQ = () => {
     const data = [
         {
@@ -83,32 +84,34 @@ Deductibility of losses: If the investment in the crowd convertible promissory n
             desc: [`Yes. If the investor lives outside the United States, it is the investor’s responsibility to fully observe the laws of any relevant territory or jurisdiction outside the United States in connection with any purchase of the securities, including obtaining required governmental or other consents or observing any other required legal or other formalities.`],
         },
     ];
+
     return (
         <>
-            <div className="justify-center flex flex-col text-center my-10 text-3xl font-bold text-gray-600">
-                <hr className="my-8 text-gray-800" />
+            <div className="flex flex-col items-center text-center my-10 text-3xl font-bold text-gray-600">
+                <hr className="my-8 w-full" />
                 <p>FAQ</p>
-                <hr className="my-5 text-gray-800 border w-[50px] border-blue-600 mx-auto" />
+                <hr className="my-5 w-[50px] border-blue-600" />
             </div>
-            <div className="w-full max-w-6xl mx-auto border-2 p-2">
-                <Tabs value="html" orientation="vertical" className="w-full max-w-6xl mx-auto border-2">
-                    <div className="w-1/3 border-2">
-                        <TabsHeader className="w-32">
+            <div className="w-full max-w-6xl mx-auto border-2 p-4">
+                <Tabs value="html" orientation="vertical" className="flex">
+                    <div className="w-1/3">
+                        <TabsHeader className="w-full text-start">
                             {data.map(({ label, value }) => (
-                                <Tab key={value} value={value}>
+                                <Tab key={label} value={value[0]} className="w-full text-left">
                                     {label}
                                 </Tab>
                             ))}
                         </TabsHeader>
                     </div>
-                    <div className="w-full max-w-4xl border-2">
+                    <div className="w-2/3 p-4">
                         <TabsBody>
                             {data.map(({ value, desc }) => (
-                                <TabPanel key={value} value={value} className="py-0">
-                                    <div className="px-4 py-4">
-                                        <h2 className="text-lg font-bold">{value}</h2>
-                                        <p className="text-sm text-gray-600">{desc}</p>
-                                    </div>
+                                <TabPanel key={value[0]} value={value[0]}>
+                                    {desc.map((paragraph, index) => (
+                                        <div key={index} className="mb-4">
+                                            <p className="text-sm text-gray-600 whitespace-pre-line">{paragraph}</p>
+                                        </div>
+                                    ))}
                                 </TabPanel>
                             ))}
                         </TabsBody>
@@ -116,7 +119,7 @@ Deductibility of losses: If the investment in the crowd convertible promissory n
                 </Tabs>
             </div>
         </>
-    )
+    );
 }
 
 export default FAQ;
