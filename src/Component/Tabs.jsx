@@ -10,6 +10,7 @@ import LeaderShip from './Coursel/Leadership';
 import About from './BelowCoursol/About';
 import Discussion from './BelowCoursol/Discussion';
 import Update from './Update';
+
 const TabsWithUnderline = () => {
     const [activeTab, setActiveTab] = useState(1);
 
@@ -19,7 +20,7 @@ const TabsWithUnderline = () => {
 
     return (
         <>
-            <div className="w-full  mx-auto">
+            <div className="w-full mx-auto">
                 <div className="border-b border-gray-200">
                     <nav className="flex space-x-1 max-w-6xl mx-auto gap-x-4" aria-label="Tabs" role="tablist">
                         <button
@@ -58,14 +59,13 @@ const TabsWithUnderline = () => {
                         >
                             Updates
                         </button>
-
                         <button
                             type="button"
                             className={`py-4 px-1 inline-flex items-center gap-x-2 border-b-2 text-3xl font-bold whitespace-nowrap ${activeTab === 4
                                 ? 'font-semibold border-blue-600 text-blue-600'
                                 : 'border-transparent text-gray-500 hover:text-blue-600'
                                 } focus:outline-none`}
-                            id="tabs-with-underline-item-3"
+                            id="tabs-with-underline-item-4"
                             onClick={() => handleTabClick(4)}
                             role="tab"
                         >
@@ -75,7 +75,7 @@ const TabsWithUnderline = () => {
                 </div>
             </div>
             <div className="max-w-6xl mx-auto flex mt-10 gap-1">
-                <div className="w-full">
+                <div className="w-2/3">
                     <div
                         id="tabs-with-underline-1"
                         className={activeTab === 1 ? '' : 'hidden'}
@@ -86,7 +86,7 @@ const TabsWithUnderline = () => {
                             <h1 className="text-3xl font-bold text-gray-800 mb-6">Highlights</h1>
                             <hr style={{ width: '56px' }} className="mb-6 text-gray-800" />
                         </div>
-                        <div className="list-disc my-5" >
+                        <div className="list-disc my-5">
                             <ul className="text-gray-500 list-disc text-left mx-16 text-gray-800 text-xl leading-8">
                                 <li>Q1 2024: Supersapiens enters US market with a focus on diabetes</li>
                                 <li>Glucose monitoring platform for optimizing health & performance</li>
@@ -99,44 +99,46 @@ const TabsWithUnderline = () => {
                         </div>
                         <Opportunity />
                         <Product />
-                        <Traction/>
-                        <Busness/>
-                        <VisionAndStrategy/>
-                        <Funding/>
-                        <LeaderShip/>    
+                        <Traction />
+                        <Busness />
+                        <VisionAndStrategy />
+                        <Funding />
+                        <LeaderShip />
                     </div>
 
-                    <div
-                        id="tabs-with-underline-2"
-                        className={activeTab === 2 ? '' : 'hidden'}
-                        role="tabpanel"
-                        aria-labelledby="tabs-with-underline-item-2"
-                    >
-                        <Discussion />
-                    </div>
-                    <div
-                        id="tabs-with-underline-3"
-                        className={activeTab === 3 ? '' : 'hidden'}
-                        role="tabpanel"
-                        aria-labelledby="tabs-with-underline-item-3"
-                    >
-                       <div className="w-full">
-                       <Update />
-                       </div>
-                    </div>
-                    <div
-                        id="tabs-with-underline-4"
-                        className={activeTab === 4 ? '' : 'hidden'}
-                        role="tabpanel"
-                        aria-labelledby="tabs-with-underline-item-4"
-                    >
-                        <p className="text-gray-500">
-                            This is the <em className="font-semibold text-gray-800">fourth</em> item's tab body.
-                        </p>
-                    </div>
                 </div>
-                <div className="w-1/3">
-                    <Faq />
+                {activeTab === 1 && (
+                    <div className="w-1/3">
+                        <Faq />
+                    </div>
+                )}
+
+            </div>
+            <div>
+                <div
+
+                    id="tabs-with-underline-2"
+                    className={activeTab === 2 ? '' : 'hidden'}
+                    role="tabpanel"
+                    aria-labelledby="tabs-with-underline-item-2"
+                >
+                    <Discussion />
+                </div>
+                <div
+                    id="tabs-with-underline-3"
+                    className={activeTab === 3 ? '' : 'hidden'}
+                    role="tabpanel"
+                    aria-labelledby="tabs-with-underline-item-3"
+                >
+                    <Update />
+                </div>
+                <div
+                    id="tabs-with-underline-4"
+                    className={activeTab === 4 ? '' : 'hidden'}
+                    role="tabpanel"
+                    aria-labelledby="tabs-with-underline-item-4"
+                >
+                    <About />
                 </div>
             </div>
         </>
