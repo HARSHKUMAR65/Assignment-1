@@ -30,8 +30,10 @@ $ yarn start
 
 ## Screenshots
 
-![image](https://github.com/HARSHKUMAR65/Assignment-1/assets/82859280/ed81cff4-1ebd-4f15-b52a-e0e3341f4f08)
-![image](https://github.com/HARSHKUMAR65/Assignment-1/assets/82859280/ff4728c1-7d47-4f2d-9a58-27a125830b62)
-![image](https://github.com/HARSHKUMAR65/Assignment-1/assets/82859280/2504d94d-32a5-4189-90f7-c7942c589968)
-![image](https://github.com/HARSHKUMAR65/Assignment-1/assets/82859280/8ba013f6-08ce-45f9-9e27-16c3f6d081a2)
-![image](https://github.com/HARSHKUMAR65/Assignment-1/assets/82859280/0c64bd4d-31c9-48aa-9ea7-014e03c8211e)
+![image](https://github.com/HARSHKUMAR65/Assignment-1/assets/82859280/8afef9a8-57d8-4664-90a8-88df18dcdf00)
+![image](https://github.com/HARSHKUMAR65/Assignment-1/assets/82859280/d921325a-3768-4618-975b-9e1ce2670b2d)
+![image](https://github.com/HARSHKUMAR65/Assignment-1/assets/82859280/594f2936-b017-4b2e-9543-457cfefa6e88)
+![image](https://github.com/HARSHKUMAR65/Assignment-1/assets/82859280/0481b382-b6c6-49e1-8c1a-79d93317d4d4)
+![image](https://github.com/HARSHKUMAR65/Assignment-1/assets/82859280/f19554a2-1056-4f17-bafc-b05ffc45afd4)
+![image](https://github.com/HARSHKUMAR65/Assignment-1/assets/82859280/1e4271e2-e7b9-42b5-8ab7-a55f916c51d7)
+![image](https://github.com/HARSHKUMAR65/Assignment-1/assets/82859280/d6e748ec-9f49-484d-9e17-2da332676830)
