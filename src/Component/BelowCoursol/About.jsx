@@ -50,10 +50,10 @@ const About = () => {
                     </div>
                     <div className="grid grid-row-3 gap-8">
                         <div className="text-start text-xl text-primary-600">
-                            <h3>Headquaters</h3>
-                            <div className="flex justify-center items-center max-w-md mb-4 p-4 bg-white border border-primary-200 shadow-md">
-                                <img alt="Google Map location of of Supersapiens" title="Google Map location of of Supersapiens" src="https://maps.googleapis.com/maps/api/staticmap?center=2144%2BHills%2BAvenue%2BNorthwest%2B%2CAtlanta%2CGA&amp;format=png&amp;key=AIzaSyBSAkS8gvhmvxYO9XQOuP1ows6mbvx_jAE&amp;maptype=roadmap&amp;markers=size%3Asmall%7Ccolor%3A0xff0000%7Clabel%3A1%7C2144%2BHills%2BAvenue%2BNorthwest%2B%2CAtlanta%2CGA&amp;scale=2&amp;size=360x165&amp;visual_refresh=true&amp;zoom=13&amp;signature=VIHHSRpFSc6ZPpSoJ9iQhXEe9oA=" className="w-full h-64 object-cover" />
-                                <div className="text-lg font-bold mb-2">2144 Hills Avenue Northwest, Suite A, Atlanta, GA</div>
+                            <h3 className="my-2">Headquaters</h3>
+                            <div className="flex flex-col justify-center items-center max-w-md mb-4  bg-white border border-primary-200 shadow-md">
+                                <img alt="Google Map location of of Supersapiens" title="Google Map location of of Supersapiens" src="https://res.cloudinary.com/dn80vxb41/image/upload/v1717908528/staticmap_frdof3.png" className="w-full h-46 object-cover" />
+                                <div className="text-sm p-1 text-left  bg-primary-800 text-primary-100 w-full"><p>2144 Hills Avenue Northwest, Suite A, Atlanta, GA</p></div>
                             </div>
                         </div>
                     </div>
