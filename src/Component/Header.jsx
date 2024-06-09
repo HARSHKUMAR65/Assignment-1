@@ -95,7 +95,7 @@ const Header = () => {
                                                 <path fillRule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clipRule="evenodd"></path>
                                             </svg>
                                         </div>
-                                        <input type="text" id="email-adress-icon" className="bg-primary-50 border border-primary-300 text-primary-900 sm:text-sm rounded-lg focus:ring-secondary-500 focus:border-secondary-500 block w-full pl-10 p-2 md:text-2xl font-600 rounded-3xl" placeholder="Search..." />
+                                        <input type="text" id="email-adress-icon" className="bg-primary-50 border border-primary-300 text-primary-900 sm:text-sm focus:ring-secondary-500 focus:border-secondary-500 block w-full pl-10 p-2 md:text-2xl font-600 rounded-3xl" placeholder="Search..." />
                                     </div>
                                 </div>
                             </div>

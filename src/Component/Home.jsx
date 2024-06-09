@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { FaStar } from "react-icons/fa";
+import { CiStar } from "react-icons/ci";
 import { MdOutlineIosShare } from "react-icons/md";
 import CardSlider from "./CardSlider";
 import { image_URL , homeOptions } from "../Utils/constant";
@@ -37,8 +37,8 @@ const Home = () => {
                   <h1 className="text-3xl font-bold text-primary-800">Supersapiens</h1>
                 </div>
                 <div className="flex gap-2 text-3xl">
-                  <FaStar className="" />
-                  <MdOutlineIosShare className="text-primary-800" />
+                <CiStar className="hover:text-secondary-600" />
+                  <MdOutlineIosShare className="text-primary-600 hover:text-secondary-600" />
                 </div>
               </div>
               <div className="text-lg text-primary-600 mb-4">
