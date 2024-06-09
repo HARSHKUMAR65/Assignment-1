@@ -3,7 +3,7 @@ import About from './BelowCoursol/About';
 import Discussion from './BelowCoursol/Discussion';
 import Update from './Update';
 import PitchTab from './PitchTab';
-
+import Review from './Review';
 const tabs = [
     {
         title: 'Pitch',
@@ -19,7 +19,7 @@ const tabs = [
     },
     {
         title: 'Reviews',
-        component: <About />
+        component: <Review />
     }
 ]
 

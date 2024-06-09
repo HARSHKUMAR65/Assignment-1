@@ -151,6 +151,7 @@ const PressData =  [
 const commentsData = [
   {
       name: "Enrique Alejandro Carvajal Patiño",
+      price: "$5,000",
       profile_picture: {
           small_2x: "https://uploads.republic.com/p/users/avatars/small_2x/001/495/730/1495730-1703192406-8e70371026614e1bdeb02ca43d0718257d4a1167.jpeg"
       },
@@ -161,6 +162,7 @@ const commentsData = [
   },
   {
       name: "Maria Garcia",
+      price: "$25,000",
       profile_picture: {
           small_2x: "https://assets.republic.com/assets/default/user/small-9619dc1066bbd4d6507d72cb757a4dedd53b72fde52f7e402ecc8535824609c3.svg"
       },
@@ -171,6 +173,7 @@ const commentsData = [
   },
   {
       name: "John Doe",
+      price: "$50,000",
       profile_picture: {
           small_2x: "https://assets.republic.com/assets/default/user/small-9619dc1066bbd4d6507d72cb757a4dedd53b72fde52f7e402ecc8535824609c3.svg"
       },
@@ -181,6 +184,7 @@ const commentsData = [
   },
   {
       name: "Jane Smith",
+      price: "$100,000",
       profile_picture: {
           small_2x: "https://assets.republic.com/assets/default/user/small-9619dc1066bbd4d6507d72cb757a4dedd53b72fde52f7e402ecc8535824609c3.svg"
       },
@@ -191,6 +195,7 @@ const commentsData = [
   },
   {
       name: "Carlos Mendoza",
+      price: "$150,000",
       profile_picture: {
           small_2x: "https://assets.republic.com/assets/default/user/small-9619dc1066bbd4d6507d72cb757a4dedd53b72fde52f7e402ecc8535824609c3.svg"
       },
