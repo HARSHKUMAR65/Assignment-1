@@ -22,7 +22,7 @@ const VisionAndStrategy = () => {
                 Understanding the body's glucose responses is crucial for people with diabetes. With precise and personalized data, Supersapiens enables informed decisions that drive genuine lifestyle transformations for individuals with diabetes.
             </div>
             <div className="text-start text-xl text-primary-800 my-8">
-                This transformation is powered by our collaboration with a leader in glucose sensing technology, ensuring that our insights are grounded in accuracy and relevance. Through this, we aim to empower the diabetes community with tools for proactive health management, aligning with our mission to make the… <span className="text-blue-600 text-xl">Read more</span>
+                This transformation is powered by our collaboration with a leader in glucose sensing technology, ensuring that our insights are grounded in accuracy and relevance. Through this, we aim to empower the diabetes community with tools for proactive health management, aligning with our mission to make the… <span className="text-secondary-600 text-xl">Read more</span>
             </div>
         </>
     )

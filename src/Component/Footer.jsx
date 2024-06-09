@@ -17,7 +17,7 @@ const Footer = () => {
             </div>
             <div className="flex flex-col items-center gap-4 justify-center my-10 sm:flex-row">
                 <div className="flex items-center gap-2">
-                    <button className='flex justify-center bg-secondary-600 text-white p-3 sm:p-5 rounded-lg'>
+                    <button className='flex justify-center bg-secondary-600 text-white p-3 sm:p-5 rounded-lg ' disabled>
                         <div className='flex items-center'>
                             <span className='mt-1'>
                                 <FaLock className='text-xl sm:text-2xl text-primary-100' />
@@ -40,67 +40,67 @@ const Footer = () => {
                                 <img className="w-24 h-auto mb-6" src="https://assets.republic.com/assets/logo/full/white/120x30/logo-54659cb6a37ad65e8e65799b0238c6ea0c0c4ed99ce66f7286fd1d175e718e73.svg" />
                             </a>
                             <p className="mb-6 text-lg font-medium">Giving everyone access to early-stage startup investing</p>
-                            <div className="flex space-x-4 text-2xl">
+                            <div className="flex space-x-4 text-2xl ">
                                 <a>
-                                    <FaFacebookSquare />
+                                    <FaFacebookSquare className="flex space-x-4 text-2xl hover:text-primary-300" />
                                 </a>
                                 <a >
-                                    <FaInstagramSquare />
+                                    <FaInstagramSquare className="flex space-x-4 text-2xl hover:text-primary-300" />
                                 </a>
                                 <a >
-                                    <FaSquareXTwitter />
+                                    <FaSquareXTwitter className="flex space-x-4 text-2xl hover:text-primary-300" />
                                 </a>
                                 <a >
-                                    <FaLinkedin />
+                                    <FaLinkedin className="flex space-x-4 text-2xl hover:text-primary-300" />
                                 </a>
                                 <a>
-                                    <FaDiscord />
+                                    <FaDiscord className="flex space-x-4 text-2xl hover:text-primary-300" />
                                 </a>
                             </div>
                         </div>
                         <div className="md:col-span-3 grid grid-cols-2 md:grid-cols-4 gap-y-6">
                             <div>
                                 <h2 className="text-xl font-semibold mb-4">For investors</h2>
-                                <ul className="text-lg font-semibold text-primary-100">
-                                    <li><a href="/investors/why-invest">Why invest</a></li>
-                                    <li><a href="/learn/investors/how-it-works">How it works</a></li>
-                                    <li><a href="/help">FAQ</a></li>
-                                    <li><a href="/risks">Risks</a></li>
-                                    <li><a href="/privacy">Privacy policy</a></li>
-                                    <li><a href="/accessibility">Accessibility</a></li>
-                                    <li><a href="javascript:void(0)" className="js-footer_cookie-preferences">Cookie Preferences</a></li>
-                                    <li><a href="https://files.brokercheck.finra.org/crs_291387.pdf">Form CRS</a></li>
+                                <ul className="text-lg font-semibold text-primary-400">
+                                    <li><a href="/" className="hover:text-primary-200">Why invest</a></li>
+                                    <li><a href="/" className="hover:text-primary-200">How it works</a></li>
+                                    <li><a href="/" className="hover:text-primary-200">FAQ</a></li>
+                                    <li><a href="/" className="hover:text-primary-200">Risks</a></li>
+                                    <li><a href="/" className="hover:text-primary-200">Privacy policy</a></li>
+                                    <li><a href="/" className="hover:text-primary-200">Accessibility</a></li>
+                                    <li><a href="/" className="hover:text-primary-200">Cookie Preferences</a></li>
+                                    <li><a href="/" className="hover:text-primary-200">Form CRS</a></li>
                                 </ul>
                             </div>
                             <div>
                                 <h2 className="text-xl font-semibold mb-4">For startups</h2>
-                                <ul className="text-lg font-semibold text-primary-300">
-                                    <li><a href="/raise">Why raise</a></li>
-                                    <li><a href="/learn/issuers">Learn</a></li>
-                                    <li><a href="/help/category/fundraising">FAQ</a></li>
-                                    <li><a href="/startups/fundraising-instruments">Instruments</a></li>
-                                    <li><a href="/crowdsafe">Crowd SAFE</a></li>
-                                    <li><a href="/tokenization">Tokenized assets</a></li>
+                                <ul className="text-lg font-semibold text-primary-400">
+                                    <li><a href="/" className="hover:text-primary-200">Why raise</a></li>
+                                    <li><a href="/" className="hover:text-primary-200">Learn</a></li>
+                                    <li><a href="/" className="hover:text-primary-200">FAQ</a></li>
+                                    <li><a href="/" className="hover:text-primary-200">Instruments</a></li>
+                                    <li><a href="/" className="hover:text-primary-200">Crowd SAFE</a></li>
+                                    <li><a href="/" className="hover:text-primary-200">Tokenized assets</a></li>
                                 </ul>
                             </div>
                             <div>
                                 <h2 className="text-xl font-semibold mb-4">Crypto</h2>
-                                <ul className="text-lg font-semibold text-primary-300">
-                                    <li><a href="/crypto">For investors</a></li>
-                                    <li><a href="/crypto/services">For companies</a></li>
-                                    <li><a href="/crypto/for-investors/how-it-works">How it works</a></li>
-                                    <li><a href="/token-dpa">Token DPA</a></li>
-                                    <li><a href="/tokenization">Tokenization</a></li>
+                                <ul className="text-lg font-semibold text-primary-400">
+                                    <li><a href="/crypto" className="hover:text-primary-200">For investors</a></li>
+                                    <li><a href="/crypto/services" className="hover:text-primary-200">For companies</a></li>
+                                    <li><a href="/crypto/for-investors/how-it-works" className="hover:text-primary-200">How it works</a></li>
+                                    <li><a href="/token-dpa" className="hover:text-primary-200">Token DPA</a></li>
+                                    <li><a href="/tokenization" className="hover:text-primary-200">Tokenization</a></li>
                                 </ul>
                             </div>
                             <div>
                                 <h2 className="text-xl font-semibold mb-4">Company</h2>
-                                <ul className="text-lg font-semibold text-primary-300">
-                                    <li><a href="/about">About</a></li>
-                                    <li><a href="/blog">Journal</a></li>
-                                    <li><a href="/events">Events</a></li>
-                                    <li><a href="/contact">Contact</a></li>
-                                    <li><a href="/jobs">We're hiring!</a></li>
+                                <ul className="text-lg font-semibold text-primary-400">
+                                    <li><a href="/about" className="hover:text-primary-200">About</a></li>
+                                    <li><a href="/blog" className="hover:text-primary-200">Journal</a></li>
+                                    <li><a href="/events" className="hover:text-primary-200">Events</a></li>
+                                    <li><a href="/contact" className="hover:text-primary-200">Contact</a></li>
+                                    <li><a href="/jobs" className="hover:text-primary-200">We're hiring!</a></li>
                                 </ul>
                             </div>
                         </div>

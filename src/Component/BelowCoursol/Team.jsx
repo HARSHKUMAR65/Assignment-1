@@ -7,7 +7,7 @@ const Team = () => {
                 <p>Supersapiens Team</p>
                 <p className="text-primary-500 text-base my-5">Everyone helping build Supersapiens , not limited to employees
                 </p>
-                <hr className="my- text-primary-500 border-2 w-[200px] border-blue-600 mx-auto" />
+                <hr className="my- text-primary-500 border-2 w-[200px] border-secondary-600 mx-auto" />
             </div>
             <div className="my-10">
                 <div className="w-full max-w-6xl mx-auto ">

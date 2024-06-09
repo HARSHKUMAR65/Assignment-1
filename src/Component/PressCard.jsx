@@ -16,7 +16,7 @@ const PressCard = ({ title, description, link, image, icon, date, bsns }) => (
             href={link}
             target="_blank"
             rel="noopener noreferrer"
-            className="text-blue-500 hover:text-blue-700"
+            className="text-secondary-500 hover:text-secondary-700"
         >
         </a>
     </div>

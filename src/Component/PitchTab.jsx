@@ -7,11 +7,12 @@ import Busness from './Coursel/BusnessModel';
 import VisionAndStrategy from './Coursel/Vision';
 import Funding from './Coursel/Funding';
 import LeaderShip from './Coursel/Leadership';
-import {highlights} from '../Utils/constant';
+import { highlights } from '../Utils/constant';
 
-const PitchTab = () => <div className="max-w-6xl mx-auto flex mt-10 lg:flex-row flex-col">
-    <div className="">
-        <h1 className="text-3xl font-bold text-primary-800 mb-6">Highlights</h1>
+const PitchTab = () => 
+<div className="max-w-6xl mx-auto flex mt-10 lg:flex-row flex-col gap-8">
+    <div className="mr-5">
+        <h1 className="text-3xl font-bold text-primary-500 mb-6">Highlights</h1>
         <hr className="mb-6 text-primary-800 w-[56px]" />
         <div className="list-disc my-5">
             <ul className="text-primary-500 list-disc text-left mx-16 text-primary-800 text-xl leading-8 mb-16">

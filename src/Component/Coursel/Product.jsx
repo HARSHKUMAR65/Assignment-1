@@ -5,7 +5,7 @@ const Product = () => {
                 <h1 className="text-3xl font-bold text-primary-600 mb-6">Product</h1>
                 <hr style={{ width: '56px' }} className="mb-6 text-primary-800" />
             </div>
-            <div className="text-6xl font-bold text-primary-900 my-6 text-center sm:text-2xl md:text-xl lg:text-2xl xl:text-2xl 2xl:text-lg">
+            <div className="text-6xl font-bold text-primary-900 my-6 text-center ">
                 Supersapiens: next-gen insights empowering diabetes management
             </div>
             <div className="justify-center flex flex-col text-center my-10 p-8 m-8">
@@ -47,7 +47,7 @@ const Product = () => {
                                 <strong>Complete</strong>
                             </li>
                         </ul>
-                        <p>... <span className="text-blue-600 font-medium text-2xl">Read more</span></p>
+                        <p>... <span className="text-secondary-600 font-medium text-2xl">Read more</span></p>
                     </div>
                 </div>
             </div>

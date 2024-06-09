@@ -11,8 +11,9 @@ const Traction = () => {
             </div>
             <div>
                 <img src="https://republic.com/cdn-cgi/image/width=680,dpr=2/https://uploads.republic.com/p/images/attachments/original/000/108/838/108838-1701290596-66c7d5aed74cf13c03652feaef8519e6e7bd6515.png" alt="" />
-                <span className="text-primary-600 mb-5">(data to date as of Oct 31, 2023)</span>
+                <span className="text-primary-600 mb-5 font-italic">(data to date as of Oct 31, 2023)</span>
                 <img className="mt-5" src="https://republic.com/cdn-cgi/image/width=680,dpr=2/https://uploads.republic.com/p/images/attachments/original/000/105/480/105480-1699385791-81898449bdddc89f8b62563d56ff67fd081c8b92.png" alt="" />
+                <img src="https://republic.com/cdn-cgi/image/width=680,dpr=2/https://uploads.republic.com/p/images/attachments/original/000/081/169/81169-1671649163-c26d2200ab78e9dd0992f7ed400de33266e90d83.png" alt="" />
                 <h2 className="text-primary-600 text-3xl text-center font-bold mb-5">Milestones & trajectory</h2>
                 <img src="https://republic.com/cdn-cgi/image/width=680,dpr=2/https://uploads.republic.com/p/images/attachments/original/000/086/164/86164-1680532784-85a7692523f65cfeaa37c9e83dfb6c0d1121cfc0.png" alt="" />
                 <img src="https://republic.com/cdn-cgi/image/width=680,dpr=2/https://uploads.republic.com/p/images/attachments/original/000/086/165/86165-1680532840-0b067cede3264fd3bb1dcc71e86e3f738d22b25b.png" alt="" />
@@ -82,7 +83,7 @@ const Traction = () => {
             <div className="my-8">
                 <img src="https://republic.com/cdn-cgi/image/width=680,dpr=2/https://uploads.republic.com/p/images/attachments/original/000/109/440/109440-1701507921-06d4ac29b1a9d6b7d498f3b480bd08e05fe4961b.png" alt="" />
             </div>
-            <div className="text-start text-primary-600  text-3xl my-4">... <span className="text-blue-600 text-xl">Read more</span></div>
+            <div className="text-start text-primary-600  text-3xl my-4">... <span className="text-secondary-600 text-xl">Read more</span></div>
         </>
     )
 }

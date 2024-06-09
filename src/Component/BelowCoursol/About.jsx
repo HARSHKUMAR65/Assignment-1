@@ -8,7 +8,7 @@ const About = () => {
             <div className="justify-center flex flex-col text-center my-10 text-3xl font-bold text-primary-600">
                 <hr className="my-8 text-primary-400" />
                 About Supersapiens
-                <hr className="my-8 text-primary-500 border-2 w-[200px] border-blue-600 mx-auto" />
+                <hr className="my-8 text-primary-500 border-2 w-[200px] border-secondary-600 mx-auto" />
             </div>
 
             <div className="w-full max-w-6xl mx-auto ">
@@ -34,7 +34,7 @@ const About = () => {
                         </div>
                         <div className="text-start text-xl text-primary-600">
                             <h3>Website</h3>
-                            <p className="text-blue-800 text-2xl"><a href="/">supersapiens.com</a></p>
+                            <p className="text-secondary-800 text-2xl"><a href="/">supersapiens.com</a></p>
                         </div>
                         <div className="text-start text-xl text-primary-600">
                             <h3>Social Media</h3>

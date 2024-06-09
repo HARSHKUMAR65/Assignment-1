@@ -46,7 +46,7 @@ const Home = () => {
               </div>
               <div className="flex flex-wrap gap-2">
                 {homeOptions.map((option, index) => (
-                  <a key={index} className={`px-3 py-1 bg-primary-200 text-primary-800 rounded-md text-sm ${index===1 ? 'bg-secondary-50 text-secondary-500': ''}`}>
+                  <a key={index} className={`px-3  py-1 bg-primary-200 text-primary-800 rounded-md text-sm ${index===1 ? 'bg-secondary-50 text-secondary-500': ''}`}>
                     {option}
                   </a>
                 ))}
@@ -66,7 +66,7 @@ const Home = () => {
         </Slider>
         <div className="flex justify- mt-4">
           {image_URL.map((imageUrl, index) => (
-            <div key={index} className={`w-64 h-36 bg-primary-400  mx-1 border-2 border-white  ${index === activeIndex ? 'border-4 border-blue-500  rounded-lg' : ''}`}>
+            <div key={index} className={`w-64 h-36 bg-primary-400  mx-1 border-2 border-white  ${index === activeIndex ? 'border-4 border-secondary-500  rounded-lg' : ''}`}>
               <img src={imageUrl} alt={`Mini Image ${index}`} className="w-full h-full rounded-lg  " onClick={() => setActiveIndex(index)} />
             </div>
           ))}
@@ -76,7 +76,7 @@ const Home = () => {
         <div className="w-full max-w-6xl mx-auto py-10 ">
           <div className="head flex justify-between">
             <h1 className="text-3xl font-bold text-primary-800">Open for investment</h1>
-            <p className="text-primary-600">Investors in Supersapiens also invested in these companies. <a href="#" className="text-blue-500">View more</a> </p>
+            <p className="text-primary-600">Investors in Supersapiens also invested in these companies. <a href="#" className="text-secondary-500">View more</a> </p>
           </div>
           <div className="cardsld">
             <CardSlider />

@@ -20,7 +20,7 @@ const Busness = () => {
                 </strong>
                 Our B2B approach transcends traditional sales,
                 <br />
-                <span>... <span className="text-blue-600 text-2xl">Read more</span></span>
+                <span>... <span className="text-secondary-600 text-2xl">Read more</span></span>
             </div>
         </>
     )

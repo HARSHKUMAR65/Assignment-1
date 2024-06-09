@@ -32,7 +32,7 @@ const Opportunity = () => {
                 <div className="my-8">
                     For too long, achieving optimal glucose stability has been
                     <br />
-                    … <span className="text-blue-500">Read more</span>
+                    … <span className="text-secondary-500">Read more</span>
                 </div>
             </div>
         </>

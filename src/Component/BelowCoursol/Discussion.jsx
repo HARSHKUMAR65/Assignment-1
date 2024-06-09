@@ -8,10 +8,10 @@ const Discussion = () => {
             <div className="flex flex-col items-center text-center my-10 text-3xl font-bold text-primary-600">
                 <hr className="my-8 w-full" />
                 <p>Discussion</p>
-                <hr className="my-5 w-[50px] border-blue-600" />
+                <hr className="my-5 w-[50px] border-secondary-600" />
             </div>
             <div className="text-primary-500 text-sm mb-10 text-center w-full max-w-3xl mx-auto">
-                Ask questions and share feedback with the Supersapiens team below. If you have support related questions for Republic, please contact <a className="text-blue-600" href="#">investors@republic.co.</a>
+                Ask questions and share feedback with the Supersapiens team below. If you have support related questions for Republic, please contact <a className="text-secondary-600" href="#">investors@republic.co.</a>
             </div>
             <div className="w-full max-w-3xl mx-auto">
                 {commentsData.map((data, index) => (

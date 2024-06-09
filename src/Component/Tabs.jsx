@@ -32,15 +32,15 @@ const HeadersTab = () => {
 
     return (
         <>
-            <div className="w-full mx-auto">
+            <div className="w-full mx-auto sticky top-0 bg-primary-50">
                 <div className="border-b border-primary-200">
                     <nav className="flex flex-wrap space-x-1 max-w-6xl mx-auto gap-x-4 sm:gap-x-2 md:gap-x-4" aria-label="Tabs" role="tablist">
                         {tabs.map((tab, index) => (
                             <button key={index}
                                 type="button"
-                                className={`py-2 px-2 sm:py-4 sm:px-1 inline-flex items-center gap-x-2 border-b-2 text-lg sm:text-2xl md:text-3xl font-bold whitespace-nowrap ${activeTab === index
+                                className={`py-2 px-2 sm:py-4 sm:px-1 inline-flex items-center gap-x-2 border-b-2 text-lg sm:text-2xl md:text-2xl font-bold whitespace-nowrap ${activeTab === index
                                     ? 'font-semibold border-secondary-600 text-secondary-600'
-                                    : 'border-transparent text-primary-500 hover:text-blue-600'
+                                    : 'border-transparent text-primary-500 hover:text-secondary-600'
                                     } focus:outline-none`}
                                 id={`tabs-with-underline-item-${index}`}
                                 onClick={() => handleTabClick(index)}

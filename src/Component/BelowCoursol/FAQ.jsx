@@ -15,7 +15,7 @@ const FAQ = () => {
             <div className="flex flex-col items-center text-center my-10 text-3xl font-bold text-primary-600">
                 <hr className="my-8 w-full" />
                 <p>FAQ</p>
-                <hr className="my-5 w-[50px] border-blue-600" />
+                <hr className="my-5 w-[50px] border-secondary-600" />
             </div>
             <div className="w-full max-w-6xl mx-auto border-2 p-4">
                 <Tabs value="html" orientation="vertical" className="flex">

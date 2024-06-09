@@ -1,11 +1,11 @@
 const highlights = [
-    'Q1 2024: Supersapiens enters US market with a focus on diabetes0',
-    'Glucose monitoring platform for optimizing health & performance0',
-    'Insights for metabolic health via glucose, first launched in Europe0',
-    'Partnered with a market leader to enhance US diabetes management0',
-    'Worlds largest glucose dataset (non-diabetic): 1B+ data points0',
-    'Trusted by Olympians, F1, UEFA, NBA, PGA, NFL, NHL, MLB, TDF, Ironman0',
-    'Seamlessly integrates with Apple Health, Oura, Garmin, Wahoo, and others0',
+    'Q1 2024: Supersapiens enters US market with a focus on diabetes',
+    'Glucose monitoring platform for optimizing health & performance',
+    'Insights for metabolic health via glucose, first launched in Europe',
+    'Partnered with a market leader to enhance US diabetes management',
+    'Worlds largest glucose dataset (non-diabetic): 1B+ data points',
+    'Trusted by Olympians, F1, UEFA, NBA, PGA, NFL, NHL, MLB, TDF, Ironman',
+    'Seamlessly integrates with Apple Health, Oura, Garmin, Wahoo, and others',
 ];
 
 const image_URL = [
@@ -14,7 +14,7 @@ const image_URL = [
   'https://uploads.republic.com/p/offerings/slider_media_items/contents/default/000/022/063/22063-1705697414-7f17210e54c0859bb1e5a58843c752ec91cd4fad.png'
 ];
 
-const homeOptions = ['SaaS','Women Founders','Wellbeing & Longevity','Fitness' , 'Healthtech' , 'Biotechnology' , 'Wearables'];
+const homeOptions = ['SAAS','WOMEN FOUNDERS','WELLBEING & LONGEVITY','FITNESS' , 'HEALTHTECH' , 'BIOTECHNOLOGY' , 'WEARABLES'];
 
 
 const faqs = [

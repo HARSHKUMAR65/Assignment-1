@@ -13,11 +13,11 @@ const Update = () =>
                     <div className="bg-white border rounded-lg  mx-5 w-2/3 ">
                         <div className="px-6 py-4">
                             <h2 className="text-3xl font-semibold mb-4">
-                                <a href="/" className="text-primary-800 hover:text-blue-500 text-4xl font-bold">Major Milestone Alert + Webinar: Supersapiens Breaks New Ground in the US Market!</a>
+                                <a href="/" className="text-primary-800 hover:text-secondary-500 text-4xl font-bold">Major Milestone Alert + Webinar: Supersapiens Breaks New Ground in the US Market!</a>
                             </h2>
                             <div className="text-primary-700 font-medium">
                                 Dear Supersapiens Investor, Mark Your Calendars! Join us in a special virtual event, "Investing in Sports," hosted by Republic tomorrow January 16, 2024. This webinar is not just any event – it's a...
-                                <a href="/supersapiens-fitzalan-crowe-major-milestone-alert-webinar-supersapiens-breaks-1" className="text-blue-500 hover:underline ml-1">Read more</a>
+                                <a href="/supersapiens-fitzalan-crowe-major-milestone-alert-webinar-supersapiens-breaks-1" className="text-secondary-500 hover:underline ml-1">Read more</a>
                             </div>
                         </div>
                         <div className="px-6 py-4 flex items-center border-t border-primary-200">
