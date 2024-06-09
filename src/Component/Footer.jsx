@@ -25,10 +25,10 @@ const Footer = () => {
                             <p className='ml-2 text-xl sm:text-2xl font-bold text-primary-100'>Invest in Supersapiens</p>
                         </div>
                     </button>
-                    <div className="flex items-center gap-2 border border-black px-2 sm:px-4 py-1 sm:py-2 rounded">
+                    <div className="flex items-center gap-2 border  px-2 sm:px-4 py-1 sm:py-2 rounded text-primary-400 border-primary-400 rounded">
                         Follow
                     </div>
-                    <span className="ml-1 text-primary-400">224</span>
+                    <span className="ml-1 text-primary-800 border border-primary-400 px-2 sm:px-2 py-0 sm:py-0 rounded">224</span>
                 </div>
             </div>
 

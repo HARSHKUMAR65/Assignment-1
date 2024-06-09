@@ -42,7 +42,7 @@ const CardSlider = () => {
                   alt={card.title}
                   className="w-full h-48 object-cover mb-8 rounded-sm"
                 />
-                <img src={card.img2} alt="" className="h-16 w-16 border-4 border-white -mt-16 mb-4 ml-5" />
+                <img src={card.img2} alt="" className="h-16 w-16 border-0 border-white -mt-16 mb-4 ml-5" />
                 <h1 className="text-2xl text-left font-bold ml-3 ">{card.h1}</h1>
                 <h2 className="text-primary-800 text-left text-lg ml-3">{card.h2}</h2>
                 <p className="text-primary-700 leading-relaxed text-left text-sm mx-4 pb-4 ">{card.p}</p>

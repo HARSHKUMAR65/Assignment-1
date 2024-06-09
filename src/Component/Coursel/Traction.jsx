@@ -24,61 +24,62 @@ const Traction = () => {
                 <div>
                     <ul className="list-disc list-inside leading-10 text-xl">
                         <li>
-                            <span>Headquarters:</span>
+                            <span>Headquarters: </span>
                             <span>Atlanta, GA</span>
                         </li>
                         <li>
-                            <span>Founded:</span>
+                            <span>Founded: </span>
                             <span>2019</span>
                         </li>
                         <li>
-                            <span>Commercial Launch:</span>
+                            <span>Commercial Launch: </span>
                             <span>September 2020</span>
                         </li>
                         <li>
-                            <span>Total FTEs:</span>
+                            <span>Total FTEs: </span>
                             <span>16 (including EU) (as of 11/01/23)</span>
                         </li>
                         <li>
-                            <span>2022 Revenue:</span>
+                            <span>2022 Revenue: </span>
                             <span>$2M</span>
                         </li>
                         <li>
-                            <span>Sensor Users:</span>
+                            <span>Sensor Users: </span>
                             <span>15,800 to date, 1,800 in US clinical trial</span>
                         </li>
                         <li>
-                            <span>Sensors per Customer per Year:</span>
+                            <span>Sensors per Customer per Year: </span>
                             <span>5.71</span>
                         </li>
                         <li>
-                            <span>Third-Party Data Integration:</span>
+                            <span>Third-Party Data Integration: </span>
                             <span>Over 200M potential collective users</span>
                         </li>
                         <li>
-                            <span>Working with:</span>
-                            <span>A market leader in sensor and device technology</span>
-                        </li>
+                            <span>Working in conjunction with
+                            </span>
+                            <span> a market leader in sensor and device technology</span>
+                    </li>
                     </ul>
                 </div>
             </div>
             <div className="text-center text-primary-600 font-bold text-2xl">
-            Empowering Diabetes Management: Supersapiens' Expansion to the US Market
+                Empowering Diabetes Management: Supersapiens' Expansion to the US Market
             </div>
             <div className="img">
                 <img src="https://republic.com/cdn-cgi/image/width=680,dpr=2/https://uploads.republic.com/p/images/attachments/original/000/109/439/109439-1701507850-e7f4a39eff8301d2dd8724163d599f9f1aa19a4a.png" alt="" />
             </div>
             <div className="text-center text-primary-600 font-bold text-3xl my-4">
-            Leveraging current IP to support the diabetes community
+                Leveraging current IP to support the diabetes community
             </div>
             <div className="text-start text-black text-xl my-8">
-            The Supersapiens app, supported by glucose data from a market leader, evolves to serve the diabetes population.
+                The Supersapiens app, supported by glucose data from a market leader, evolves to serve the diabetes population.
             </div>
             <div>
                 <img src="https://republic.com/cdn-cgi/image/width=680,dpr=2/https://uploads.republic.com/p/images/attachments/original/000/105/376/105376-1699369392-6e8483967b6dec1c52698eb6fd03a09b37980167.png" alt="" />
             </div>
             <div className="text-center text-primary-600 font-bold text-2xl my-8">
-            The Supersapiens Advantage
+                The Supersapiens Advantage
             </div>
             <div className="my-8">
                 <img src="https://republic.com/cdn-cgi/image/width=680,dpr=2/https://uploads.republic.com/p/images/attachments/original/000/109/440/109440-1701507921-06d4ac29b1a9d6b7d498f3b480bd08e05fe4961b.png" alt="" />
