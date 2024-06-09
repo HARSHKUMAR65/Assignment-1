@@ -29,3 +29,5 @@ $ yarn start
 ```
 
 ## Screenshots
+
+![image](![image](https://github.com/HARSHKUMAR65/Assignment-1/assets/82859280/ed81cff4-1ebd-4f15-b52a-e0e3341f4f08)
