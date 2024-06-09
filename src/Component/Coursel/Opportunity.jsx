@@ -2,7 +2,7 @@ const Opportunity = () => {
     return (
         <>
             <div className="">
-                <h1 className="text-3xl font-bold text-primary-600 mb-6">Opportunities</h1>
+                <h1 className="text-3xl font-bold text-primary-600 mb-6">Opportunity</h1>
                 <hr style={{ width: '56px' }} className="mb-6 text-primary-500" />
             </div>
             <div className="text-6xl font-bold text-primary-900 mb-6 text-center">
